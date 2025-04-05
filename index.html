@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Switter</title>
+</head>
+<body>
+   
+    <div class="container">
+       
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <span class="material-icons">flutter_dash</span>
+            </div>
+            <nav class="sidebar-nav">
+                <div class="nav-item active">
+                    <span class="material-icons">home</span>
+                    <span class="nav-text">Home</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">explore</span>
+                    <span class="nav-text">Explore</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">notifications</span>
+                    <span class="nav-text">Notifications</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">email</span>
+                    <span class="nav-text">Messages</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">bookmark_border</span>
+                    <span class="nav-text">Bookmarks</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">person</span>
+                    <span class="nav-text">Profile</span>
+                </div>
+                <div class="nav-item">
+                    <span class="material-icons">more_horiz</span>
+                    <span class="nav-text">More</span>
+                </div>
+            </nav>
+            <button class="tweet-btn">Tweet</button>
+            <div class="user-profile">
+                <div class="user-pic">
+                    <img src="profile-pic.png" alt="User Profile">
+                </div>
+                <div class="user-info">
+                    <p class="user-name">Omar Selim</p>
+                    <p class="user-handle">@omarselim</p>
+                </div>
+                <span class="material-icons more-options">more_horiz</span>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <h1>Home</h1>
+                <span class="material-icons">star_border</span>
+            </header>
+            <div class="tweet-composer">
+                <div class="composer-pic">
+                    <img src="profile-pic.png" alt="User Profile">
+                </div>
+                <div class="composer-input">
+                    <textarea placeholder="What's happening?"></textarea>
+                    <div class="composer-actions">
+                        <div class="composer-icons">
+                            <span class="material-icons">image</span>
+                            <span class="material-icons">gif_box</span>
+                            <span class="material-icons">poll</span>
+                            <span class="material-icons">emoji_emotions</span>
+                            <span class="material-icons">schedule</span>
+                        </div>
+                        <button class="tweet-btn">Tweet</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tweets-feed">
+                <div class="tweet">
+                    <div class="tweet-pic">
+                        <img src="girl.jpg" alt="User Profile">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweet-header">
+                            <span class="tweet-author">Faten Hassan</span>
+                            <span class="tweet-handle">@fatenhassan</span>
+                            <span class="tweet-time">· 2h</span>
+                            <span class="material-icons more-options">more_horiz</span>
+                        </div>
+                        <p class="tweet-text">Just watched an amazing movie! Highly recommend it to everyone. 🎬 #MovieNight</p>
+                        <div class="tweet-actions">
+                            <span class="material-icons">chat_bubble_outline</span><span>12</span>
+                            <span class="material-icons">repeat</span><span>45</span>
+                            <span class="material-icons">favorite_border</span><span>123</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-pic">
+                        <img src="profile-pic.png" alt="User Profile">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweet-header">
+                            <span class="tweet-author">Samy Mohamed</span>
+                            <span class="tweet-handle">@samymohamed</span>
+                            <span class="tweet-time">· 5h</span>
+                            <span class="material-icons more-options">more_horiz</span>
+                        </div>
+                        <p class="tweet-text">Beautiful sunset today! 🌅</p>
+                        <img src="sunset.jpg" alt="Sunset Image" class="tweet-image">
+                        <div class="tweet-actions">
+                            <span class="material-icons">chat_bubble_outline</span><span>8</span>
+                            <span class="material-icons">repeat</span><span>20</span>
+                            <span class="material-icons">favorite_border</span><span>56</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="trending-sidebar">
+            <div class="search-bar">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search Switter">
+            </div>
+            <div class="trending-section">
+                <h2>Trends for you</h2>
+                <div class="trend-item">
+                    <p class="trend-category">Trending in Tech</p>
+                    <p class="trend-topic">#AIRevolution</p>
+                    <p class="trend-stats">12K Tweets</p>
+                </div>
+                <div class="trend-item">
+                    <p class="trend-category">Trending in Sports</p>
+                    <p class="trend-topic">#WorldCup</p>
+                    <p class="trend-stats">45K Tweets</p>
+                </div>
+                <div class="trend-item">
+                    <p class="trend-category">Trending in Music</p>
+                    <p class="trend-topic">#NewAlbum</p>
+                    <p class="trend-stats">30K Tweets</p>
+                </div>
+            </div>
+            <div class="who-to-follow">
+                <h2>Who to follow</h2>
+                <div class="follow-suggestion">
+                    <div class="follow-pic">
+                        <img src="girl.jpg" alt="User Profile">
+                    </div>
+                    <div class="follow-info">
+                        <p class="follow-name">Sarah Salem</p>
+                        <p class="follow-handle">@sarahsalem</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
+                <div class="follow-suggestion">
+                    <div class="follow-pic">
+                        <img src="profile-pic.png" alt="User Profile">
+                    </div>
+                    <div class="follow-info">
+                        <p class="follow-name">Ali Kareem</p>
+                        <p class="follow-handle">@alikareem</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
